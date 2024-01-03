@@ -1,6 +1,6 @@
 
 import styled from 'styled-components'
-import heroImage from '../../public/hero.jpeg'
+import heroImage from '/hero.jpeg'
 import { variables } from '../global/variables.js'
 
 console.log(heroImage);
@@ -28,11 +28,25 @@ const StyledHero = styled.section`
     .hero-text {
       position: absolute;
       bottom: 40%;
-      left: 20%
+      left: 20%;
       // top: 100%;
 
     }
 
+  }
+
+  @media (max-width: 600px) {
+    div#image-container {
+      padding: 0;
+      min-width: 0;
+
+      .hero-text {
+        bottom: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+      }
+    }
   }
 
 `
