@@ -1,5 +1,3 @@
-import './App.css'
-
 import Hero from "./components/Hero.jsx"
 import Nav from "./components/Nav.jsx"
 

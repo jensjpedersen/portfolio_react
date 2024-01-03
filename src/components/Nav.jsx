@@ -1,8 +1,11 @@
 
 import styled from 'styled-components'
 
-const StyledNav = styled.nav`
+import { variables } from '../global/variables.js'
 
+const StyledNav = styled.nav`
+    background-color: ${variables.colors.background};
+    height: ${variables.navHeight};
     ul {
         display: flex;
         list-style: none;
