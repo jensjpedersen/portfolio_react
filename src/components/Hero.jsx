@@ -35,7 +35,7 @@ const StyledHero = styled.section`
 
   }
 
-  @media (max-width: 600px) {
+  @media ${variables.media.sm} {
     div#image-container {
       padding: 0;
       min-width: 0;
