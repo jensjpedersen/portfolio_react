@@ -1,5 +1,5 @@
-import Hero from "./pages/Hero.jsx"
-import Nav from "./pages/Nav.jsx"
+import Hero from "./components/Hero.jsx"
+import Nav from "./components/Header/Nav.jsx"
 import Projects from "./pages/Projects.jsx"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
@@ -12,13 +12,16 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Nav/>}>
 
-                        <Route index element={<Hero/>}/>
+                        <Route path="/" element={<Hero/>}/>
 
                         <Route path="projects" element={<Projects/>}/>
 
                         <Route path="about" element={<h1>About</h1>}/>
 
                         <Route path="*" element={<h1>404</h1>}/>
+
+
+
 
                     </Route>
                 </Routes>

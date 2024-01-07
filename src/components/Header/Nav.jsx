@@ -3,7 +3,7 @@ import { Outlet, Link } from 'react-router-dom'
 
 import styled from 'styled-components'
 
-import { variables } from '../global/variables.js'
+import { variables } from '../../global/variables.js'
 
 const StyledNav = styled.nav`
 background-color: ${variables.colors.background};
