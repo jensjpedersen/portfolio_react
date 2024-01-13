@@ -9,7 +9,7 @@ const StyledProjects = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 5rem;
 
 
     margin-top: 5rem;
@@ -30,15 +30,14 @@ export default function Projects() {
 
 
             <ProjectCard img={rangerImg} />
-            <ProjectCard />
-            <ProjectCard />
-
-
-            <ProjectCard>
-
-            </ProjectCard>
-
             <IconMenu />
+            <ProjectCard />
+            <IconMenu />
+            <ProjectCard />
+            <IconMenu />
+            <ProjectCard />
+            <IconMenu />
+
 
 
 

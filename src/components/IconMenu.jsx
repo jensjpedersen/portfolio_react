@@ -7,15 +7,13 @@ const StyledIconMenu = styled.div`
     // flex-direction: column;
     // align-items: center;
 
-
-    // transform: translateX(-40px);
-
-    height: 60px; 
+    transform: translateY(-60px);
+    height: 0;
 
     img {
         filter: grayscale(100%);
-        height: 100%;
-        width: 100%;
+        height: 50px; 
+        width: 50px;
         transition: all 0.2s ease-in-out;
 
         &:hover {
