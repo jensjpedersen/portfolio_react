@@ -1,12 +1,15 @@
 
 import styled from 'styled-components'
 import ProjectCard from '../components/ProjectCard' 
+import IconMenu from '../components/IconMenu'
+import rangerImg from "/project-cards/ranger_nvim.png"
 
 
 const StyledProjects = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 2rem;
 
 
     margin-top: 5rem;
@@ -22,11 +25,24 @@ export default function Projects() {
 
 
             <h1>Projects</h1>
+            <p>Feel free to check out some of my projects</p>
 
-            Adipisicing quaerat sed laudantium totam recusandae Repellat voluptatem id laborum pariatur officia recusandae! Dolores rerum officiis dolor exercitationem odit. Reiciendis aliquid aliquam impedit perspiciatis cupiditate odit non ex? Commodi rerum
 
 
+            <ProjectCard img={rangerImg} />
             <ProjectCard />
+            <ProjectCard />
+
+
+            <ProjectCard>
+
+            </ProjectCard>
+
+            <IconMenu />
+
+
+
+
         </StyledProjects>
 
             
