@@ -4,8 +4,8 @@ import styled from 'styled-components'
 const StyledProjectCard = styled.div`
 
     background-color: gray; 
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
     position: relative;
     border-radius: 10px;
 
