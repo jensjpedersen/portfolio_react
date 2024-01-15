@@ -1,36 +1,37 @@
 import Hero from "./components/Hero.jsx"
-import Nav from "./components/Header/Nav.jsx"
+import Header from "./components/Header/Header.jsx"
 import Projects from "./pages/Projects.jsx"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 
 function App() {
 
-    return (
-        <>
-            <BrowserRouter>
-                <Routes>
-                    <Route path="/" element={<Nav/>}>
+  return (
+    <>
+      <BrowserRouter>
 
-                        <Route path="/" element={<Hero/>}/>
+        <Header/>
 
-                        <Route path="projects" element={<Projects/>}/>
+        <Routes>
 
-                        <Route path="about" element={<h1>About</h1>}/>
+          <Route path="/" element={<Hero/>}/>
 
-                        <Route path="*" element={<h1>404</h1>}/>
+          <Route path="/projects" element={<Projects/>}/>
 
-
+          <Route path="/about" element={<h1>About</h1>}/>
 
 
-                    </Route>
-                </Routes>
-
-            </BrowserRouter>
 
 
-        </>
-    )
+
+
+        </Routes>
+
+      </BrowserRouter>
+
+
+    </>
+  )
 }
 
 export default App
