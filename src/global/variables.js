@@ -8,4 +8,12 @@ export const variables = {
     },
 
     navHeight: '80px',
+    
+    dimensions: {
+        'verticalMargin': '80px'
+    }
+
+
+        
+
 }

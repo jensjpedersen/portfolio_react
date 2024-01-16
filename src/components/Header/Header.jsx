@@ -1,6 +1,6 @@
 
-// import Logo from './Logo';
-// import Nav from './Nav';
+import Logo from './Logo';
+import Nav from './Nav';
 //
 
 import styled from 'styled-components';
@@ -14,7 +14,9 @@ const StyledHeader = styled.header`
 export default function Header() {
   return (
     <StyledHeader>
-    <div>hei</div>
+      <Logo />
+      <Nav />
+
     </StyledHeader>
   )
 }
