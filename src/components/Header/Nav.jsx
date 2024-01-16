@@ -6,12 +6,14 @@ import styled from 'styled-components'
 import { variables } from '../../global/variables.js'
 
 const StyledNav = styled.nav`
-background-color: ${variables.colors.background};
+  background-color: ${variables.colors.background};
   height: ${variables.navHeight};
-display: flex;
-justify-content: end;
-align-items: center;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
 // margin-right: ${variables.navHeight};
+
 
 ul {
   display: flex;
