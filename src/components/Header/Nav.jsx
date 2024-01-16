@@ -37,25 +37,25 @@ export default function Nav() {
       <StyledNav>
 
         <ul>
-          <li><a href="">Link 2</a></li>
-          <li><a href="">Link 3</a></li>
 
           <li>
-            <Link to="/">Hjem</Link>
+            <Link to="/about">Om</Link>
           </li>
 
           <li>
             <Link to="/projects">Prosjekter</Link>
           </li>
-          <li><a href="">Link 2</a></li>
-          <li><a href="">Link 3</a></li>
+
+          <li>
+            <Link to="/contact">Kontakt</Link>
+          </li>
+
         </ul>
 
 
 
       </StyledNav>
 
-      <Outlet/>
     </>
   )
 
