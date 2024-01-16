@@ -8,7 +8,10 @@ import { variables } from '../../global/variables.js'
 
 const StyledLogo = styled.div`
   background-color: red; 
-` 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`; 
 
 export default function Logo() {
   return (

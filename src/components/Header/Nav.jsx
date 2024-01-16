@@ -11,7 +11,7 @@ background-color: ${variables.colors.background};
 display: flex;
 justify-content: end;
 align-items: center;
-margin-right: ${variables.navHeight};
+// margin-right: ${variables.navHeight};
 
 ul {
   display: flex;
