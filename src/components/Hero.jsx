@@ -12,7 +12,7 @@ div#image-container {
     position: relative;
 
     padding: ${variables.navHeight};
-        padding-top: 0;
+    padding-top: 0;
     width: 100vw;
     min-width: 600px; 
     min-height: 300px;
@@ -40,18 +40,21 @@ div#image-container {
 }
 
 @media ${variables.media.sm} {
-    div#image-container {
-        padding: 0;
-        min-width: 0;
+  div#image-container {
+    padding: 0;
+    min-width: 0;
 
-        .hero-text {
-            bottom: 20%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            min-width: 300px; 
 
-        }
+
+
+    .hero-text {
+      bottom: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      min-width: 300px; 
+
     }
+  }
 }
 
 `
@@ -68,7 +71,10 @@ export default function Hero() {
           <h2> This is some text</h2>
         </div>
       </div>
+
     </StyledHero>
+
+
   )
 
 }
