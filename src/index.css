@@ -83,3 +83,8 @@ button:focus-visible {
   }
 }
 
+
+.nav-styling {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}

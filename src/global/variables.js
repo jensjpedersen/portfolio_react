@@ -8,12 +8,16 @@ export const variables = {
     },
 
     navHeight: '80px',
+
+    border: {
+        radiusMd: '10px',
+    },
     
     dimensions: {
         'verticalMargin': '80px'
     }
-
-
         
 
 }
+
+

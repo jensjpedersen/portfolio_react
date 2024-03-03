@@ -27,6 +27,8 @@ div#image-container {
         // box-shadow: 0 0 20px 5px rgba(22, 49, 58, 1);
         box-shadow: 0 0 5px 0px rgba(0, 0, 0, 1);
         border-color: rgba(22, 49, 58, 1);
+        // box-shadow: 0 5px 5px 1px black;
+        // border: 5px 5px 5px 5px solid black;
     }
 
     .hero-text {

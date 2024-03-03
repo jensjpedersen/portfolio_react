@@ -3,6 +3,7 @@ import Hero from "./components/Hero.jsx"
 import Header from "./components/Header/Header.jsx"
 import Projects from "./pages/Projects.jsx"
 import Home from "./pages/Home.jsx"
+import Footer from "./components/Footer/Footer.jsx"
 
 function App() {
 
@@ -23,6 +24,9 @@ function App() {
         </Routes>
 
       </BrowserRouter>
+
+
+      <Footer/>
 
 
     </>
